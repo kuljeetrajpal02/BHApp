@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="18.039" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="http.proxyHost" value="127.0.0.1"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/manpreetrajpal/kuljeet/Appium1/target/test-classes:/Users/manpreetrajpal/kuljeet/Appium1/target/classes:/Users/manpreetrajpal/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/manpreetrajpal/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/manpreetrajpal/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/manpreetrajpal/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/manpreetrajpal/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/manpreetrajpal/.m2/repository/io/appium/java-client/7.0.0/java-client-7.0.0.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/manpreetrajpal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/manpreetrajpal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/manpreetrajpal/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/manpreetrajpal/.m2/repository/cglib/cglib/3.2.8/cglib-3.2.8.jar:/Users/manpreetrajpal/.m2/repository/org/ow2/asm/asm/6.2.1/asm-6.2.1.jar:/Users/manpreetrajpal/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/manpreetrajpal/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/manpreetrajpal/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar:/Users/manpreetrajpal/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar:/Users/manpreetrajpal/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar:/Users/manpreetrajpal/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar:/Users/manpreetrajpal/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar:/Users/manpreetrajpal/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar:/Users/manpreetrajpal/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/manpreetrajpal/.m2/repository/com/aventstack/extentreports/4.0.0/extentreports-4.0.0.jar:/Users/manpreetrajpal/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/manpreetrajpal/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/manpreetrajpal/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/manpreetrajpal/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/manpreetrajpal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/manpreetrajpal/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/manpreetrajpal/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/manpreetrajpal/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/manpreetrajpal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/manpreetrajpal/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/manpreetrajpal/.m2/repository/org/slf4j/slf4j-simple/1.7.26/slf4j-simple-1.7.26.jar:/Users/manpreetrajpal/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/manpreetrajpal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/manpreetrajpal/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/manpreetrajpal/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/manpreetrajpal/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/manpreetrajpal/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/manpreetrajpal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/manpreetrajpal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/manpreetrajpal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/manpreetrajpal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="/Users/manpreetrajpal/.sdkman/candidates/java/11.0.2-open/lib"/>
+    <property name="sun.java.command" value="/Users/manpreetrajpal/kuljeet/Appium1/target/surefire/surefirebooter7602113567861576046.jar /Users/manpreetrajpal/kuljeet/Appium1/target/surefire 2020-05-30T20-10-02_209-jvmRun1 surefire8032882045727355579tmp surefire_013843537140742019353tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/manpreetrajpal/kuljeet/Appium1/target/test-classes:/Users/manpreetrajpal/kuljeet/Appium1/target/classes:/Users/manpreetrajpal/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/manpreetrajpal/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/manpreetrajpal/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/manpreetrajpal/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/manpreetrajpal/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/manpreetrajpal/.m2/repository/io/appium/java-client/7.0.0/java-client-7.0.0.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/manpreetrajpal/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/manpreetrajpal/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/manpreetrajpal/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/manpreetrajpal/.m2/repository/cglib/cglib/3.2.8/cglib-3.2.8.jar:/Users/manpreetrajpal/.m2/repository/org/ow2/asm/asm/6.2.1/asm-6.2.1.jar:/Users/manpreetrajpal/.m2/repository/org/apache/ant/ant/1.10.3/ant-1.10.3.jar:/Users/manpreetrajpal/.m2/repository/org/apache/ant/ant-launcher/1.10.3/ant-launcher-1.10.3.jar:/Users/manpreetrajpal/.m2/repository/org/springframework/spring-context/5.1.0.RELEASE/spring-context-5.1.0.RELEASE.jar:/Users/manpreetrajpal/.m2/repository/org/springframework/spring-aop/5.1.0.RELEASE/spring-aop-5.1.0.RELEASE.jar:/Users/manpreetrajpal/.m2/repository/org/springframework/spring-beans/5.1.0.RELEASE/spring-beans-5.1.0.RELEASE.jar:/Users/manpreetrajpal/.m2/repository/org/springframework/spring-core/5.1.0.RELEASE/spring-core-5.1.0.RELEASE.jar:/Users/manpreetrajpal/.m2/repository/org/springframework/spring-jcl/5.1.0.RELEASE/spring-jcl-5.1.0.RELEASE.jar:/Users/manpreetrajpal/.m2/repository/org/springframework/spring-expression/5.1.0.RELEASE/spring-expression-5.1.0.RELEASE.jar:/Users/manpreetrajpal/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/manpreetrajpal/.m2/repository/com/aventstack/extentreports/4.0.0/extentreports-4.0.0.jar:/Users/manpreetrajpal/.m2/repository/org/freemarker/freemarker/2.3.23/freemarker-2.3.23.jar:/Users/manpreetrajpal/.m2/repository/org/mongodb/mongodb-driver/3.3.0/mongodb-driver-3.3.0.jar:/Users/manpreetrajpal/.m2/repository/org/mongodb/mongodb-driver-core/3.3.0/mongodb-driver-core-3.3.0.jar:/Users/manpreetrajpal/.m2/repository/org/mongodb/bson/3.3.0/bson-3.3.0.jar:/Users/manpreetrajpal/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/Users/manpreetrajpal/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/manpreetrajpal/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/manpreetrajpal/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/manpreetrajpal/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/manpreetrajpal/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/manpreetrajpal/.m2/repository/org/slf4j/slf4j-simple/1.7.26/slf4j-simple-1.7.26.jar:/Users/manpreetrajpal/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/manpreetrajpal/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/manpreetrajpal/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/manpreetrajpal/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/manpreetrajpal/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/manpreetrajpal/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/manpreetrajpal/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/manpreetrajpal/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/manpreetrajpal/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/manpreetrajpal/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/manpreetrajpal/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/manpreetrajpal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-01-15"/>
+    <property name="java.home" value="/Users/manpreetrajpal/.sdkman/candidates/java/11.0.2-open"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/manpreetrajpal/kuljeet/Appium1"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/manpreetrajpal/kuljeet/Appium1/target/surefire/surefirebooter7602113567861576046.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.2+9"/>
+    <property name="user.name" value="manpreetrajpal"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="/Users/manpreetrajpal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/bc/n9pyv_k930s6qxq8kb_rrdpc0000gq/T/"/>
+    <property name="java.version" value="11.0.2"/>
+    <property name="user.dir" value="/Users/manpreetrajpal/kuljeet/Appium1"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/manpreetrajpal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.2+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="http.proxyPort" value="8080"/>
+  </properties>
+  <testcase name="selectLanguage" classname="Login" time="17.692">
+    <failure message="&#10;Cannot inject @Test annotated Method [selectLanguage] with [class java.lang.String].&#10;For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection" type="org.testng.TestNGException">org.testng.TestNGException: 
+
+Cannot inject @Test annotated Method [selectLanguage] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+</failure>
+    <system-out><![CDATA[
+===============================================
+    /Users/manpreetrajpal/kuljeet/Appium1
+    Tests run: 0, Failures: 0, Skips: 0
+===============================================
+
+]]></system-out>
+    <system-err><![CDATA[[Utils] [ERROR] [Error] org.testng.TestNGException: 
+Cannot inject @Test annotated Method [selectLanguage] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+	at org.testng.internal.Parameters.checkParameterTypes(Parameters.java:407)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:635)
+	at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+	at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+	at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+
+]]></system-err>
+  </testcase>
+</testsuite>
